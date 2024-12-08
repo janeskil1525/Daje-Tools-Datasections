@@ -59,7 +59,7 @@ use Mojo::Loader qw {data_section load_class};
 # Copyright (C) 2024 Jan Eskilsson.
 #
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 has 'data_sections';
 has 'data_sec';
