@@ -1,33 +1,10 @@
 # NAME
 
-Daje::Tools::Datasections - It's new $module
-
-# SYNOPSIS
-
-    use Daje::Tools::Datasections;
-
-# DESCRIPTION
-
-Daje::Tools::Datasections is ...
-
-# LICENSE
-
-Copyright (C) Jan Eskilsson.
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
-
-# AUTHOR
-
-Jan Eskilsson <janeskil1525@gmail.com>
-
-# NAME
-
 Daje::Tools::Datasections
 
 # DESCRIPTION
 
-Data::Load::Datasection  - Load and keep data sections from named \*.pm
+Daje::Tools::Datasections - Load and store data sections in memory from a named \*.pm
 
 # REQUIRES
 

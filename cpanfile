@@ -1,4 +1,3 @@
-requires 'perl', '5.40';
 requires 'Mojo::Base', '0';
 requires 'Mojo::Loader', '0';
 
