@@ -60,8 +60,9 @@ use Mojo::Loader qw {data_section load_class};
 
 our $VERSION = '0.08';
 
-has 'data_sections';
+
 has 'data_sec';
+has 'data_sections';
 has 'source';
 
 # Load all data_sections
