@@ -2,5 +2,6 @@ Revision history for Perl extension Daje-Tools-DataSections
 
 {{$NEXT}}
 
+    - added error
     - changed to use Mojo::Loader::load_class instead of require
 

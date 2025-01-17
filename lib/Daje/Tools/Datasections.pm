@@ -58,12 +58,13 @@ use Mojo::Loader qw {data_section load_class};
 # Copyright (C) 2024 Jan Eskilsson.
 #
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 
 has 'data_sec';
 has 'data_sections';
 has 'source';
+has 'error';
 
 # Load all data_sections
 sub load_data_sections($self) {
@@ -81,7 +82,7 @@ sub load_data_sections($self) {
             }
         }
     };
-    die ("Error loading templates: $@") if $@;
+    $self->error($@) if $@;
 
     return 1;
 }
